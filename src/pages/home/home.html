@@ -1,14 +1,34 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar class="header">
+  	<ion-buttons left>
+  		<button ion-button icon-only menuToggle class="title">
+  			<ion-icon name="menu"></ion-icon>
+  		</button>
+  	</ion-buttons>
     <ion-title>
-      Ionic Blank
+      <h4 class="title">
+        Social Service Club
+      </h4>
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-card class="a" (click)="openModal()">
+  	<h2>Painting Competition</h2>
+  	<p>Date: 27 March,2018</p>
+  	<p>Venue: GBU Main Audi</p>
+  </ion-card>
+
+  <ion-card class="a">
+  	<h2>Beti Bachao Beti Padhao</h2>
+  	<p>Date: 27 March,2018</p>
+  	<p>Venue: GBU Main Audi</p>
+  </ion-card>
+
+  <ion-card class="a">
+  	<h2>Rangoli Mela</h2>
+  	<p>Date: 27 March,2018</p>
+  	<p>Venue: GBU Main Audi</p>
+  </ion-card>
 </ion-content>
